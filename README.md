@@ -54,12 +54,12 @@
 
 This project implements a **Convolutional Neural Network (CNN)** trained on the famous **MNIST dataset** to classify handwritten digits (0–9) with state-of-the-art accuracy. The pipeline covers every stage of a production-grade ML workflow:
 
-- ✅ **Data ingestion** from Kaggle with reproducible splits
-- ✅ **Preprocessing** including normalization, reshaping, and augmentation
-- ✅ **CNN architecture** designed with modern best practices (BatchNorm, Dropout)
-- ✅ **Hyperparameter tuning** with learning rate scheduling
-- ✅ **Rich evaluation** including per-class metrics and confusion matrix
-- ✅ **Visualization** of training dynamics, misclassifications, and feature maps
+-  **Data ingestion** from Kaggle with reproducible splits
+-  **Preprocessing** including normalization, reshaping, and augmentation
+-  **CNN architecture** designed with modern best practices (BatchNorm, Dropout)
+-  **Hyperparameter tuning** with learning rate scheduling
+-  **Rich evaluation** including per-class metrics and confusion matrix
+-  **Visualization** of training dynamics, misclassifications, and feature maps
 
 Whether you're a student exploring computer vision or an engineer building OCR pipelines, this repository serves as a **clear, well-documented reference implementation**.
 
@@ -77,13 +77,9 @@ Traditional Programming          vs.        Deep Learning
 
 ### How It Works
 
-```
-Layer 1 (Edges)      Layer 2 (Shapes)     Layer 3 (Parts)     Output
-┌─────────────┐      ┌─────────────┐      ┌─────────────┐     ┌──────┐
-│  ╱ ╲ — │   │  →   │  ○ □ △ ◇   │  →   │  loops      │  →  │  8   │
-│  pixels     │      │  curves     │      │  corners    │     └──────┘
-└─────────────┘      └─────────────┘      └─────────────┘
-```
+
+<img src="C:\Users\gaura\OneDrive\Desktop\Training\Deep Learning\images\howItWork.jpg" width="500">
+
 
 | Concept | Description |
 |---|---|
